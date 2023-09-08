@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ObjectTest
-//
-//  Created by Tunko on 2023/07/31.
-//
-
 import SwiftUI
 
 class ViewModel: ObservableObject {
@@ -96,7 +89,7 @@ struct SubView: View {
                         .frame(width: 200, height: 100)
                         .overlay {
                             VStack {
-                                Text("StateObject")
+                                Text("@StateObject")
                                     .font(.system(size: 24))
                                     .foregroundColor(.white)
                                 Text("\(stateViewModel.value)")
@@ -113,7 +106,7 @@ struct SubView: View {
                         .frame(width: 200, height: 100)
                         .overlay {
                             VStack {
-                                Text("ObservedObject")
+                                Text("@ObservedObject")
                                     .font(.system(size: 24))
                                     .foregroundColor(.white)
                                 Text("\(observedViewModel.value)")

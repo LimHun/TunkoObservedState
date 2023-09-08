@@ -1,10 +1,3 @@
-//
-//  ObjectTestApp.swift
-//  ObjectTest
-//
-//  Created by 임훈 on 2023/07/31.
-//
-
 import SwiftUI
 
 @main
